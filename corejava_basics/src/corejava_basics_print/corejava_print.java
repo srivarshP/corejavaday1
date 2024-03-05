@@ -16,13 +16,13 @@ public class corejava_print {
 		System.out.print("for add use 1 ,for subraction use 2 for multiplication use 3");
 		OPS=s.nextInt();
 		if(OPS==1) {
-		System.out.print("the sum of "+a+" and "+b+" and "+c+" are "+(a+b+c));
+		System.out.print("the ADDITION of "+a+" and "+b+" and "+c+" are "+(a+b+c));
 		}
 		if(OPS==2) {
-			System.out.print("the sum of "+a+" and "+b+" and "+c+" are "+(a-b-c));
+			System.out.print("the SUBRACTION of "+a+" and "+b+" and "+c+" are "+(a-b-c));
 		}
 		if(OPS==3) {
-			System.out.print("the sum of "+a+" and "+b+" and "+c+" are "+(a*b*c));
+			System.out.print("the MULTIPLICATION of "+a+" and "+b+" and "+c+" are "+(a*b*c));
 		}
 	}
 	
