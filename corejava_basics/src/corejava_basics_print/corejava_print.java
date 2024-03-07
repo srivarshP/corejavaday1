@@ -13,7 +13,7 @@ public class corejava_print {
 		b=s.nextInt();
 		System.out.print("Enter the value of C");
 		c=s.nextInt();
-		System.out.print("for add use 1 ,for subraction use 2 for multiplication use 3");
+		System.out.print("for add use 1 ,for subraction use 2 ,for multiplication use 3");
 		OPS=s.nextInt();
 		if(OPS==1) {
 		System.out.print("the ADDITION of "+a+" and "+b+" and "+c+" are "+(a+b+c));
