@@ -14,7 +14,11 @@ public class Excuitures {
 		c2.setAddress("Rajastan");
 		c2.setUsercash(1000);
 		
+		Customer c3 =new Customer(114,"jacob","china town");
+		Customer c4 =new Customer();
 		System.out.println(c1.getCid());
-		System.out.print(c2);
+		System.out.println(c2);
+		System.out.println(c3);
+		System.out.println(c4);
 	}
 }

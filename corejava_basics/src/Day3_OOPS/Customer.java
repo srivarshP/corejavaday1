@@ -7,6 +7,16 @@ public class Customer {
 	private String Cname;
 	private String address;
 	
+	public Customer() {
+		this.cid=01;
+		this.Cname="unknown";
+		this.address="unknown";
+	}
+	public Customer(int cid, String Cname,String address) {
+		this.cid=cid;
+		this.Cname=Cname;
+		this.address=address;
+	}
 	//set and get
 	public String getCname() {
 		return Cname;
